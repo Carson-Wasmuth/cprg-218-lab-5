@@ -1,0 +1,112 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #ff1a1a;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Select container styles */
+.select-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Styles for the dropdown select */
+#pokemon-select {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ff1a1a;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Styles for the fetch data button */
+#fetch-data-btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+#fetch-data-btn:hover {
+    background-color: #e60000;
+}
+
+/* Card styles for displaying Pokémon details */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the data container */
+#data-container {
+    margin-top: 30px;
+}
+
+/* Styles for Pokémon details */
+#data-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff1a1a;
+    text-align: center;
+}
+
+#data-container img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#data-container p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+    text-align: center;
+}
+
+/* Additional styles for the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff1a1a;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 0 0 15px 15px;
+    font-family: Arial, sans-serif;
+}
